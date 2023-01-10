@@ -1,0 +1,159 @@
+body{
+    font-family:"montserrat-black" ;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "montserrat-bold";
+
+}
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid{
+    padding: 3% 15% 3% 15%;
+}
+
+p{
+    color: #8f8f8f;
+    font-weight: bold;
+}
+
+/*heading*/
+
+.big-heading{
+    font-family: "montserrat-black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bolder;
+}
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: "ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "montserrat-light";
+}
+.Download-button{
+    margin: 5% 3% 5% 0;
+}
+.title-img{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    left: 55%;
+}
+
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    
+}
+.feature-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+
+/*testimonial*/
+
+#testimonials{
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.carousel-item{
+    padding: 7% 15%;
+
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/*pricing section*/
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+    
+}
+
+.price-txt{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 5% 15% ;
+    position: relative;
+    
+}
+.cta-heading{
+    font-family: "montserrat-black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bolder;
+    color: #fff;
+}
+#footer{
+    text-align: center;
+    padding: 5% 15%;
+}
+.social-icon{
+    margin: 20px 10px;
+}
+
+@media (max-width: 1000px) {
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
